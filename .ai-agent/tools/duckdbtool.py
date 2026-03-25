@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import duckdb
+import re
 from pydantic import BaseModel
 from tools.base import Tool, ToolInvocation, ToolKind, ToolResult
 from config.config import Config
